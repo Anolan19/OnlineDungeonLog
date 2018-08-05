@@ -1,6 +1,6 @@
 <?php
 
-	function generatePage($body, $title="Dungeon Log System") {
+	function generatePage($body, $title="RPG Utility") {
     	    $page = <<<EOPAGE
 <!doctype html> 
 	<html> 
@@ -25,11 +25,10 @@ EOPAGE;
 
 	function connect(){
 
-
     $servername = "localhost";
-    $username = "dbuser";
-    $password ="goodbyeWorld";
-	    $db="applicationdb";
+    $username = "id6696067_admin";
+    $password ="12345";
+	    $db="id6696067_users";
 
     $conn = new mysqli($servername, $username, $password, $db);
 
